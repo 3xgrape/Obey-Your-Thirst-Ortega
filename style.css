@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.topnav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 10vh;
+    background-color:#008B47;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-size: x-large;
+    font-style: italic;
+}
+.topnav:hover {
+    box-shadow: 0 0 25px #ffdb4b;
+}
+.fit {
+    color: rgb(255, 71, 71);;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    opacity: 1.0;
+    color: #F8CD24;
+}
+
+.flex-container1 {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-image: url('hero_new1.jpg');
+}
+.flex-container2 {
+    max-height: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: black;
+    color: white; 
+    padding-top: 1em;
+    
+    font-size: xx-large;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 4rem;
+}
+#green-wording {
+    max-height: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white; 
+    padding-top: .5em;
+    padding-bottom: 2em;
+    font-size: xx-large;
+    font-family: 'Archivo Black', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 3rem;
+}
+.green-words {
+    color: #6BB64A;
+}
+#thirstforyours {
+    width: 100%;
+}
+.flex-container3 {
+    display: flex;
+    flex-direction: row;
+    max-height: 100%;
+    justify-content: space-evenly;
+    font-family: 'Bebas Neue', sans-serif;
+    
+}
+.video-class1 {
+    text-align: justify;
+    max-width: 100%;
+    width: 25%;
+}
+.vidHeading {
+    font-size: x-large;
+    color: rgb(31, 26, 26);
+    font-style: italic;
+}
+.vidDescription {
+    font-size: 18px;
+    font-family: 'Bebas Neue', sans-serif;
+    color: rgb(59, 59, 59);
+}
+.vidTags {
+    font-style: italic;
+    color: #008B47;
+    font-size: 25px;
+}
+.flex-container4 {
+    display: flex;
+    background-color: #008B47;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: flex-end;
+    max-width: 100%;
+    
+}
+.sprite-image {
+    display: flex;
+}
+.Slogan-button {
+    display: inline-block;
+    font-family: 'Archivo Black', sans-serif;
+    color: white;
+    font-style: italic;
+    font-size: xx-large;
+    width: 20%;
+    
+}
+.buynow-button {
+    display: flex;
+    margin: auto;
+    background-color: #008B47;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    border: solid 2px white;
+    font-size: large;
+    padding:10px;
+    /*box-shadow: 0 0 25px #6BB64A;*/
+    cursor: pointer;
+    transition: ease-out 0.4s;
+    font-style: italic;
+}
+.buynow-button:hover {
+    transition: ease-in .4s;
+    background-color: #ffffff;
+    color:#6BB64A;
+    border: solid 2px rgb(252, 255, 63);
+    
+}
+.facebook-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+
+}
+.twitter-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.youtube-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.instagram-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.spotify-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.followUsPage {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: black;
+    color: white;
+    padding-top: 1em;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+.FollowUs {
+    padding-bottom: .75em;
+}
+.flex-container5 {
+    display: flex;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    padding-bottom: 1em;
+    background-color: black;
+    justify-content: center;
+    margin: auto;
+}
+#Sprite1 {
+    display: flex;
+    object-fit: contain;
+    height: 350px;
+    padding: 0.1rem;
+}
+.flex-container6 {
+    display: flex;
+    max-width: 100%;
+    max-height: 100%;
+    justify-content: space-evenly;
+    background-color:#fff7d7;
+}
+#spriteWayPage {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 3rem;
+    color:#44681b;
+    font-family: 'Archivo Black', sans-serif;
+    padding-bottom: 3rem;
+    font-style: italic;
+
+}
+#spritePlaylists {
+    display: flex;
+    padding-top: 3rem;
+}
+#spritePodcast {
+    padding: 1rem;
+}
+.visit-our-button {
+    font-family: 'Archivo Black', sans-serif;
+    background-color: #008B47;
+    color: white;
+    width: 100%;
+    padding: 1rem;
+    font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Footer {
+    background-color:#008B47;
+    color: white;
+    font-family: 'Archivo Black', sans-serif;
+    font-style: italic;
+    padding: 3rem;
+    font-size: 1rem;
+}
+#footer-links {
+    display: flex;
+    justify-content: space-evenly;
+}
+#sprite-social {
+    text-align: center;
+    width: 10%;
+    line-height: 2rem;
+}
+#sprite-flavors {
+    line-height: 1.5rem;
+}
+#sprite-social ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#sprite-flavors ul {
+    list-style: none;
+}
+#buynow-indicator ul {
+    list-style: none;
+}
+footer h3 {
+    line-height: 5rem;
+    font-size: 1rem;
+}
+#sprite-contact {
+    display: flex;
+    flex-direction: column;
+}
+#sprite-contact h3 {
+    text-align: center;
+    padding-top: 3rem;
+}
+#sprite-contact ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+#sprite-contact li {
+    padding: .15rem;
+}
